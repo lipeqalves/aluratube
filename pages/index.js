@@ -23,7 +23,7 @@ export default HomePage;
   return <div>Menu</div>;
 }*/
 
-const StyledHeader = styled.div`
+const StyledHeader = styled.header`
   .img-perfil {
     width: 80px;
     height: 80px;
@@ -37,8 +37,10 @@ const StyledHeader = styled.div`
     padding: 16px;
   }
   .img-banner{
-    width: 100%;
-    height: 200px;
+    width: 100vw;
+    height: 230px;
+    left: 0px;
+    top: 56px;
   }
 `;
 
